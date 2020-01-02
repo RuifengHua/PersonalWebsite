@@ -6205,13 +6205,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #eb8fd2 !important;
+  background-color: #fac3eb !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #eb8fd2 !important;
+  background-color: #fac3eb !important;
 }
 
 .bg-secondary {
@@ -6225,7 +6225,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #eb8fd2 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
