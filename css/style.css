@@ -1617,3 +1617,18 @@ figure.dotted-bg {
       .site-footer .social li a:hover {
         background: #ff6189;
         color: #ffffff; }
+
+
+.VideoContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inner-video-container{
+  margin: 5px;
+  display: block;
+  width: 500px;
+  height: 281px;
+}
+
