@@ -1027,16 +1027,82 @@ figure.dotted-bg {
   .work-experience:hover:before {
     color: #ff2e63; }
   .work-experience .position {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0; }
+  .work-experience .company {
+    font-weight: 500;
+    font-size: 18px; }
+  .work-experience .description {
+    color: rgb(71, 71, 71);
+    display: block;
+    font-size: 15px; }
+  .work-experience .year {
+    display: block;
+    font-size: 14px;
+    color: #aaa; }
+
+.qualification {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 40px; }
+  .qualification:before {
+    font-family: 'icomoon';
+    content: "\f268";
+    color: #ccc;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.2;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .qualification:hover:before {
+    color: #ff2e63; }
+  .qualification .position {
     font-size: 16px;
     font-weight: 700;
     color: #000000;
     margin-bottom: 0; }
-  .work-experience .company {
+  .qualification .company {
     font-size: 16px; }
-  .work-experience .year {
+  .qualification .year {
     display: block;
     font-size: 13px;
     color: #aaa; }
+
+.certificate {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 40px; }
+  .certificate:before {
+    font-family: 'icomoon';
+    content: "\f0a3";
+    color: #ccc;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.2;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .certificate:hover:before {
+    color: #ff2e63; }
+  .certificate .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0; }
+  .certificate .company {
+    font-size: 16px; }
+  .certificate .year {
+    display: block;
+    font-size: 14px;
+    color: #aaa; }
+  
 
 .service [class*="icon-"] {
   font-size: 50px;
@@ -1632,3 +1698,7 @@ figure.dotted-bg {
   height: 281px;
 }
 
+.flex_work{
+  display: flex;
+  flex-direction: row;
+}
